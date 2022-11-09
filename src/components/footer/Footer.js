@@ -22,7 +22,8 @@ export default function Footer() {
         <div className="footer-left-cntr">
           <div className="left-sub-cntr">
             <p className="contact-text">
-              I’m available for freelance work,
+              Trying to Reach me
+              {/* I’m available for freelance work, */}
               <br /> you can reach me by
             </p>
           </div>
