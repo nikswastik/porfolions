@@ -1,0 +1,12 @@
+.landing-social-media{
+    display: flex;
+    margin-left: 1em;
+}
+
+.social-media-links{
+    margin: 2em;
+    cursor: pointer;
+}
+.social-media-links:hover{
+   color: #35ffa9;
+}

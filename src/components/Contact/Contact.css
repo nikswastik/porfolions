@@ -1,0 +1,16 @@
+.feilds-one{
+    display: flex;
+    width:100%;
+    /* background-color: red; */
+    width: 100%;
+}
+
+.feild{
+    margin: 1em !important;
+    width: 100%;
+    /* border: 1px solid white !important; */
+    outline: 0 !important;
+}
+.contact-cntr{
+    width: 100%;
+}

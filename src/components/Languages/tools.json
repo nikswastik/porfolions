@@ -1,0 +1,116 @@
+[
+    {
+      "name": "node js",
+      "icon": "https://cdn.svgporn.com/logos/nodejs-icon.svg?response-content-disposition=attachment%3Bfilename%3Dnodejs-icon.svg",
+      "link": "www.google.com"
+    },
+    {
+      "name": "html5",
+      "icon": "https://cdn.svgporn.com/logos/html-5.svg?response-content-disposition=attachment%3Bfilename%3Dhtml-5.svg",
+      "link": "www.google.com"
+    },
+    {
+      "name": "css3",
+      "icon": "https://cdn.svgporn.com/logos/css-3.svg?response-content-disposition=attachment%3Bfilename%3Dcss-3.svg",
+      "link": "www.google.com"
+    },
+  
+   
+    {
+      "name": "taildwind",
+      "icon": "https://cdn.svgporn.com/logos/tailwindcss-icon.svg?response-content-disposition=attachment%3Bfilename%3Dtailwindcss-icon.svg",
+      "link": "www.google.com"
+    },
+    {
+      "name": "git",
+      "icon": "https://cdn.svgporn.com/logos/git-icon.svg?response-content-disposition=attachment%3Bfilename%3Dgit-icon.svg",
+      "link": "www.google.com"
+    },
+    {
+      "name": "Jest",
+      "icon": "https://cdn.svgporn.com/logos/jest.svg?response-content-disposition=attachment%3Bfilename%3Djest.svg",
+      "link": "www.google.com"
+    },
+    {
+      "name": "react",
+      "icon": "https://cdn.svgporn.com/logos/react.svg?response-content-disposition=attachment%3Bfilename%3Dreact.svg",
+      "link": "www.google.com"
+    },
+    {
+      "name": "react router",
+      "icon": "https://cdn.svgporn.com/logos/react-router.svg?response-content-disposition=attachment%3Bfilename%3Dreact-router.svg",
+      "link": "www.google.com"
+    },
+    {
+      "name": "redux",
+      "icon": "https://cdn.svgporn.com/logos/redux.svg?response-content-disposition=attachment%3Bfilename%3Dredux.svg",
+      "link": "www.google.com"
+    },
+   
+    {
+      "name": "npm",
+      "icon": "https://cdn.svgporn.com/logos/npm-icon.svg?response-content-disposition=attachment%3Bfilename%3Dnpm-icon.svg",
+      "link": "www.google.com"
+    },
+    {
+      "name": "webpack",
+      "icon": "https://cdn.svgporn.com/logos/webpack.svg?response-content-disposition=attachment%3Bfilename%3Dwebpack.svg",
+      "link": "www.google.com"
+    },
+   
+   
+    {
+      "name": "javascript",
+      "icon": "https://cdn.svgporn.com/logos/javascript.svg?response-content-disposition=attachment%3Bfilename%3Djavascript.svg",
+      "link": "www.google.com"
+    },
+    {
+      "name": "material ui",
+      "icon": "https://cdn.svgporn.com/logos/material-ui.svg?response-content-disposition=attachment%3Bfilename%3Dmaterial-ui.svg",
+      "link": "www.google.com"
+    },
+    {
+      "name": "Antd",
+      "icon": "https://cdn.svgporn.com/logos/ant-design.svg?response-content-disposition=attachment%3Bfilename%3Dant-design.svg",
+      "link": "www.google.com"
+    },
+    {
+      "name": "typescript",
+      "icon": "https://cdn.svgporn.com/logos/typescript-icon.svg?response-content-disposition=attachment%3Bfilename%3Dtypescript-icon.svg",
+      "link": "www.google.com"
+    },
+    
+    {
+      "name": "Yarn",
+      "icon": "https://cdn.svgporn.com/logos/yarn.svg?response-content-disposition=attachment%3Bfilename%3Dyarn.svg",
+      "link": "www.google.com"
+    },
+    
+    
+    {
+      "name": "Axios",
+      "icon": "https://cdn.svgporn.com/logos/axios.svg?response-content-disposition=attachment%3Bfilename%3Daxios.svg",
+      "link": "www.google.com"
+    },
+    {
+      "name": "Prettier",
+      "icon": "https://cdn.svgporn.com/logos/prettier.svg?response-content-disposition=attachment%3Bfilename%3Dprettier.svg",
+      "link": "www.google.com"
+    },
+    {
+      "name": "Nextjs",
+      "icon": "https://cdn.svgporn.com/logos/nextjs-icon.svg?response-content-disposition=attachment%3Bfilename%3Dnextjs-icon.svg",
+      "link": "www.google.com"
+    },
+    {
+      "name": "Sass",
+      "icon": "https://cdn.svgporn.com/logos/sass.svg?response-content-disposition=attachment%3Bfilename%3Dsass.svg",
+      "link": "www.google.com"
+    },
+    {
+      "name": "PWA",
+      "icon": "https://cdn.svgporn.com/logos/pwa.svg?response-content-disposition=attachment%3Bfilename%3Dpwa.svg",
+      "link": "www.google.com"
+    }
+  ]
+  

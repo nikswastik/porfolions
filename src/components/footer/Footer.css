@@ -1,0 +1,89 @@
+@media only screen and (min-width: 300px) and (max-width: 800px) {
+.footer-cntr{
+    display: flex !important;
+    flex-direction: column !important;
+}
+}
+.footer-cntr{
+    background-color: #35ffa9;
+  
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-left-cntr{
+    width: 50%;
+    height: 100%;
+  
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.left-sub-cntr{
+      display: flex;
+    /* justify-content: center; */
+    margin: 1em;
+    /* align-items: center; */
+    height: 50%;
+    /* background-color: red; */
+}
+
+.footer-right-cntr{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-text{
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(51, 49, 49);
+    text-align: left;
+}
+
+.submit-btn{
+    background-color: #23272c !important;
+    text-transform: none;
+    width: 30%;
+}
+
+.submit-btn-cntr{
+    /* background-color: red; */
+    margin: 1em;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.social-media-cntr{
+    background-color: #35ffa9;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.copy-right-text{
+    font-size: 1em;
+    letter-spacing: 0.1em;
+}
+
+.resume-cntr{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;padding: 2em;
+    
+
+}
+
+.resume-sub{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
