@@ -61,7 +61,7 @@ export default function Landing() {
         </div>
         <div className="landing-right-cntr">
           {/* <Skills/> */}
-          <img className="landing-image" src={require("../../assets/images/bar-chart.png")} />
+          <img className="landing-image" alt="img" src={require("../../assets/images/bar-chart.png")} />
         </div>
       </div>
       <Socialmedia/>

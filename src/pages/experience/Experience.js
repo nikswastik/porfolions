@@ -2,7 +2,7 @@ import React, {useEffect, useState, useCallback} from 'react';
 import ActionAreaCard from "../../components/Card/ActionAreaCard";
 import "./Experience.css";
 export default function Experience() {
-  const [projects, setProjects] = useState([
+  let projects=[
     {
       name: "DentaMitra",
       image:
@@ -34,7 +34,7 @@ export default function Experience() {
         "https://res.cloudinary.com/dgyveknrl/image/upload/v1667814818/portpolio/Screenshot_2022-11-07_at_3.23.11_PM_rm1sn0.png",
         description:"Beepeppy is a community application for designers similar to instagram  ",
         myWorks:["Api integration","Chat integration with thrid party sdk","Converting designs into ui"],
-        stack:[,"React Native"]
+        stack:["React Native"]
     },
     {
       name: "BookStore App",
@@ -52,7 +52,7 @@ export default function Experience() {
         myWorks:["Worked mainly on ui","Api integration",],
         stack:["React Native","Node Js","React Native Paper"]
     },
-  ]);
+  ];
   const [y,
     setY] = useState(document.scrollingElement.scrollHeight);
   const [scrollDirection,
