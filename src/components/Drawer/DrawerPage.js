@@ -2,6 +2,7 @@ import React from 'react'
 import Drawer from '@mui/material/Drawer';
 import {Card,CardActionArea,CardMedia} from '@mui/material';
 import "../Card//ActionAreaCard.css"
+import CloseIcon from '@mui/icons-material/Close';
 
 export default function DrawerPage({ name, img, description, open, stack, work }) {
   return (
@@ -11,6 +12,9 @@ export default function DrawerPage({ name, img, description, open, stack, work }
         open={open}
       // onClose={toggleDrawer(anchor, false)}
       >
+       <div style={{padding:"1em"}}>
+       <CloseIcon/>
+       </div>
         <Card sx={{ width: 400, height: 300 }} className="ActionAreaCard-cntr">
           <CardActionArea>
             <CardMedia

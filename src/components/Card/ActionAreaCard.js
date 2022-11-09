@@ -12,6 +12,7 @@ export default function ActionAreaCard({name,img,description,stack,works}) {
   const drawerHandler=()=>{
     setOpen(!isOpen)
   }
+
   return (
     <Card sx={{ maxWidth: 345,height:300 }} className="ActionAreaCard-cntr" onClick={drawerHandler}>
       <CardActionArea>
@@ -24,14 +25,13 @@ export default function ActionAreaCard({name,img,description,stack,works}) {
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
            {name}
-      
           </Typography>
           <Typography variant="body2" color="text.secondary">
             {description}
           </Typography>
         </CardContent>
       </CardActionArea>
-      <DrawerPage name={name} description={description} open={isOpen} img={img} stack={stack} work={works}/>
+      <DrawerPage name={name} description={description} open={isOpen} img={img} stack={stack} work={works} closeDrawer={drawerHandler}/>
     </Card>
   );
 }

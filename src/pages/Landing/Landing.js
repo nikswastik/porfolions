@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Landing.css"
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
 import Socialmedia from "../../components/socialmedia/Socialmedia";
 import AnimatedText from "../../components/AnimatedText/AnimatedText";
 
@@ -55,7 +55,7 @@ export default function Landing() {
           </p>
 
          <div className="contact-btn-cntr">
-         <Button variant="contained" className="contact-btn">{"Contact Us />"}</Button>
+         {/* <Button variant="contained" className="contact-btn">{"Contact Us />"}</Button> */}
          </div>
           {/* <button>{"Contact Us />"}</button> */}
         </div>
