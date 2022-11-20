@@ -6,7 +6,7 @@ import CloseIcon from '@mui/icons-material/Close';
 
 export default function DrawerPage({ name, img, description, open, stack, work }) {
   return (
-    <div style={{ padding: "1em" }} >
+    <div style={{ padding: "2em" }} >
       <Drawer
         anchor={"right"}
         open={open}
@@ -26,7 +26,7 @@ export default function DrawerPage({ name, img, description, open, stack, work }
             />
           </CardActionArea>
         </Card>
-        <div style={{ margin: "1em" }}>
+        <div style={{marginLeft:"2em"}}>
           <h3>{name}</h3>
           <div style={{ width: "400px" }}>
             {description}

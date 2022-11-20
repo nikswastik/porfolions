@@ -43,7 +43,7 @@ export default function Landing() {
         <div className="landing-left-cntr">
           
          <div style={{textAlign:"left",display:"flex",justifyContent:"left"}}>
-         <AnimatedText Words={["Bring your","brand to life","with our skills"]} textSize={"15px"}/>
+         <AnimatedText Words={["Develop","Test","Deploy"]} textSize={"15px"}/>
          </div>
           
          {/* <div style={{textAlign:"left",display:"flex",justifyContent:"left"}}>

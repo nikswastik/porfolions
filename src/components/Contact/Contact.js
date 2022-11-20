@@ -21,11 +21,9 @@ export default function Contact() {
   return (
     <div>
      
-      <Box
+      <div
       className="contact-cntr"
-      component="form"
-      noValidate
-      autoComplete="off"
+     
     >
       <div className="feilds-one">
         <TextField
@@ -61,7 +59,7 @@ export default function Contact() {
           dataHandler(event.target.value, "message");
         }}
       />
-    </Box>
+    </div>
     </div>
   );
 }

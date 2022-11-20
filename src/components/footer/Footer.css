@@ -4,6 +4,17 @@
     display: flex !important;
     flex-direction: column !important;
 }
+.submit-btn-cntr{
+    width: 100% !important;
+    display: flex  !important;
+    justify-content: center !important;
+    align-items: center !important;
+    
+}
+.submit-btn{
+   
+    width: 40% !important;
+}
 }
 .footer-cntr{
     background-color: #35ffa9;
