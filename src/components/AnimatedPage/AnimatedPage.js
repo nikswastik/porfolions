@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { Parallax, ParallaxLayer, IParallax } from '@react-spring/parallax'
+import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import AnimatedText from '../AnimatedText/AnimatedText'
 
 // Little helpers ...
