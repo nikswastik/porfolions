@@ -1,18 +1,23 @@
 import React from "react";
 import { styles } from "./LandingStyles";
 import { localAssets } from "../../constants/Constants";
+import GlobalStyles from "../../constants/GlobalStyles";
 
 export default function Landing() {
   return (
     <div style={styles.landing_ctr}>
-      <div>
-        <h2 style={styles.landing_l_ctr}>
+      <div style={styles.landing_l_ctr}>
+        <span style={styles.slogan_text}>
           Bridging the Gap
           <br />
-          Between Tech and <br /> Seamless Innovation
-        </h2>
+          <strong style={styles.highlighted_text}> Between </strong> Tech and{" "}
+          <br /> Seamless Innovation
+        </span>
+        <div style={styles.start_btn}>
+          <strong>Start Innovating Now</strong>
+        </div>
       </div>
-      <div>
+      <div style={styles.landing_r_ctr}>
         <img src={localAssets.bg_landing} style={styles.landing_banner} />
       </div>
     </div>
