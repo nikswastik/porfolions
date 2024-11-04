@@ -1,7 +1,7 @@
 import React from "react";
 import { styles } from "./LandingStyles";
 import { localAssets } from "../../constants/Constants";
-import GlobalStyles from "../../constants/GlobalStyles";
+import "./Landing-animated.css"
 
 export default function Landing() {
   return (
@@ -13,12 +13,12 @@ export default function Landing() {
           <strong style={styles.highlighted_text}> Between </strong> Tech and{" "}
           <br /> Seamless Innovation
         </span>
-        <div style={styles.start_btn}>
+        <div style={{ ...styles.start_btn, animation: 'buttonFadeIn 1s ease-in-out forwards' }}>
           <strong>Start Innovating Now</strong>
         </div>
       </div>
       <div style={styles.landing_r_ctr}>
-        <img src={localAssets.bg_landing} style={styles.landing_banner} />
+      <img src={localAssets.bg_landing} style={{ ...styles.landing_banner, animation: 'fadeIn 1s ease-in-out forwards' }} alt="Landing Banner" />
       </div>
     </div>
   );

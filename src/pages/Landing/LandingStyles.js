@@ -18,7 +18,7 @@ export const styles = {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    flexDirection:"column"
+    flexDirection: "column",
   },
   landing_r_ctr: {
     width: "40%",
@@ -28,15 +28,15 @@ export const styles = {
   },
   slogan_text: {
     fontSize: 73,
-    fontFamily: "ABeeZee"
+    fontFamily: "ABeeZee",
   },
-  highlighted_text:{
-    color:web_colors.secondaryText
+  highlighted_text: {
+    color: web_colors.secondaryText,
   },
-  start_btn:{
+  start_btn: {
     ...GlobalStyles.default_btn,
-       alignSelf:"flex-start",
-       marginLeft:130,
-       marginTop:80,
-  }
+    alignSelf: "flex-start",
+    marginLeft: 130,
+    marginTop: 80,
+  },
 };

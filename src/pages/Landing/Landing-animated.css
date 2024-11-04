@@ -1,28 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Unlock&display=swap');
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
-@keyframes slideIn {
-    from {
-      transform: translateX(100%);
-      opacity: 0;
-    }
-    to {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
-  .slide-in img {
-    transition: transform 0.5s; /* Smooth transition for the rotation */
-  }
-  
-  .slide-in:hover img {
-    transform: rotate(15deg); /* Adjust the degree of rotation as needed */
-  }
-  
-  
-  .slide-in {
-    animation: slideIn 0.5s ease forwards;
-  }
+.landing_banner {
+  animation: fadeIn 1s ease-in-out forwards;
+}
 
-  .landing_cntr {
-    font-family: "Alkatra", serif;
+
+@keyframes buttonFadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.start_btn {
+  animation: buttonFadeIn 1s ease-in-out forwards;
 }
