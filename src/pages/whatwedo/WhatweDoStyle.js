@@ -1,4 +1,5 @@
-import { localAssets } from "../../constants/Constants";
+import { fontSize } from "@mui/system";
+import { localAssets, web_colors } from "../../constants/Constants";
 
 export const styles = {
   container: {
@@ -9,6 +10,8 @@ export const styles = {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
+    color:web_colors.secondaryText
+
   },
   l_ctr: {
     width: "50%",
@@ -21,6 +24,7 @@ export const styles = {
   },
   title: {
     textAlign: "center",
+    fontSize:40
   },
   r_ctr: {
     width: "50%",
