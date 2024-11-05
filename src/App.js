@@ -1,6 +1,8 @@
 import "./App.css";
-import Community from "./pages/Community/Community";
+import About from "./pages/about/About";
 import Landing from "./pages/Landing/Landing";
+import WhatWeDo from "./pages/whatwedo/WhatWeDo";
+import WhyUs from "./pages/why/Why";
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
       }}
     >
       <Landing />
-      <Community />
+      <About />
+      <WhyUs />
+      <WhatWeDo />
     </div>
   );
 }
