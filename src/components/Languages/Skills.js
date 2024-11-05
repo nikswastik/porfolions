@@ -19,7 +19,7 @@ export default function Skills() {
       <Cloud>
         {tools.map((item) => (
           <A title={item.name}>
-            <Img src={item.icon} width="64" height="64" />
+            <Img src={item.icon} width="64" height="64"  alt="image"/>
           </A>
         ))}
       </Cloud>
