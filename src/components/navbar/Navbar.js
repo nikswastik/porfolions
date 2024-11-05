@@ -1,17 +1,11 @@
-import React from 'react'
-import "./Navbar.css"
-
+import React from "react";
+import "./Navbar.css";
+import { styles } from "./NavbarStyle";
 
 export default function Navbar() {
-
-
-
   return (
-    <div className='navbar-cntr'>
-      
-        <h2 className='lang-text'>Swastik Naik</h2>
-     
-      
+    <div style={styles.navbar_ctr}>
+      <h2 style={styles.navbar_txt}>Omnira</h2>
     </div>
-  )
+  );
 }
