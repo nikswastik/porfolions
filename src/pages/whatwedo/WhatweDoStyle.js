@@ -1,4 +1,4 @@
-import { fontSize, width } from "@mui/system";
+
 import { localAssets, web_colors } from "../../constants/Constants";
 
 export const styles = {

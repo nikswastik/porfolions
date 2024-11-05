@@ -1,6 +1,7 @@
 import "./App.css";
 import About from "./pages/about/About";
 import Landing from "./pages/Landing/Landing";
+import Testimonials from "./pages/testimonials/Testimonials";
 import WhatWeDo from "./pages/whatwedo/WhatWeDo";
 import WhyUs from "./pages/why/Why";
 
@@ -17,6 +18,7 @@ function App() {
       <About />
       <WhyUs />
       <WhatWeDo />
+      <Testimonials/>
     </div>
   );
 }
