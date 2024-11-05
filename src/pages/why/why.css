@@ -1,0 +1,13 @@
+@media (min-width: 300px) and (max-width: 450px) {
+    .features{
+        display: flex;
+        flex-direction: column !important;
+  
+    }
+
+    .title{
+        text-align: center;
+        margin-left: 0 !important;
+    }
+  }
+  

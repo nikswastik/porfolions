@@ -1,9 +1,9 @@
 import React from "react";
 import { styles } from "./WhatweDoStyle";
-
+import './whatwedo.css'
 export default function WhatWeDo() {
   return (
-    <div style={styles.container}>
+    <div style={styles.container} className="container">
       <div style={styles.l_ctr}>
         <h2 style={styles.title}>
           See what we <br />

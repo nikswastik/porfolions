@@ -6,7 +6,7 @@ export const styles = {
     color: web_colors.primaryText,
     display: "flex",
     justifyContent: "space-between",
-    Padding: 10,
+    padding: 10,  // Note: Change "Padding" to "padding" to follow the correct CSS property case.
     height: "60vh",
   },
   landing_banner: {
@@ -38,5 +38,10 @@ export const styles = {
     alignSelf: "flex-start",
     marginLeft: 130,
     marginTop: 80,
+  },
+  "@media (max-width: 375)": {
+    landing_ctr: {
+      backgroundColor: "red",
+    },
   },
 };
