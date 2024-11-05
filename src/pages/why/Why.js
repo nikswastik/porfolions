@@ -1,6 +1,6 @@
 import React from "react";
 import { styles } from "./WhyStyles";
-
+import './why.css'
 
 const WhyUs = () => {
 
@@ -27,9 +27,9 @@ const WhyUs = () => {
   ];
 
   return (
-    <div style={styles.container}>
-      <h2 style={styles.title}>Why Choose Us?</h2>
-      <div style={styles.features}>
+    <div style={styles.container} className="container">
+      <h2 style={styles.title} className="title">Why Choose Us?</h2>
+      <div style={styles.features} className="features">
         {features.map((feature, index) => (
           <div key={index} style={styles.feature}>
             <div style={styles.icon}>{feature.icon}</div>

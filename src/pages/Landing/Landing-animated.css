@@ -1,30 +1,47 @@
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
+@media (min-width: 300px) and (max-width: 450px) {
+  .landing-ctr {
+    flex-direction: column;
+    align-items: center;
+    width: 100% !important;  /* Use 100% without quotes */
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+
+  .landing-l-ctr {
+    order: 2;
+    text-align: center;
+    width: 100% !important;  /* Use 100% without quotes */
+    /* background-color: gray !important; */
   }
-}
 
-.landing_banner {
-  animation: fadeIn 1s ease-in-out forwards;
-}
-
-
-@keyframes buttonFadeIn {
-  from {
-    opacity: 0;
-    transform: scale(0.9);
+  .landing-r-ctr {
+    order: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    padding: 20px;
   }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
 
-.start_btn {
-  animation: buttonFadeIn 1s ease-in-out forwards;
+  .landing-banner {
+    width: 50px;
+    height: 50px;
+    width: 100% !important;  /* Use 100% without quotes */
+  }
+
+  .landing_brake {
+    display: none !important;
+  }
+
+  .slogan_text {
+    font-size: 40px !important;
+    text-align: left !important;
+    width: 100% !important;  /* Use 100% without quotes */
+    /* background-color: red; */
+  }
+
+  .start_btn {
+    display: flex;
+    align-self: center;  /* Centers the button horizontally */
+    margin-top: 10px !important;  /* Ensure units are specified (e.g., 10px) */
+    margin-left: 0 !important;  /* Removes unnecessary left margin */
+  }
 }
