@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div style={styles.abt_ctr}>
       <div style={styles.abt_l_ctr}>
-        <img style={styles.abt_img} src={localAssets.bg_about}  alt="image" />
+        <img style={styles.abt_img} src={localAssets.bg_about}  alt="info"/>
       </div>
       <div style={styles.abt_r_ctr}>
         <div style={styles.img_ctr}>
@@ -14,7 +14,7 @@ export default function About() {
             {/* <img src={localAssets.bg_lined_card} style={styles.lined_crd}/> */}
           </div>
           <div>
-            <img src={localAssets.bg_lined_card} style={styles.lined_crd}   alt="image"/>
+            <img src={localAssets.bg_lined_card} style={styles.lined_crd}  alt="info"/>
           </div>
         </div>
         <div>
