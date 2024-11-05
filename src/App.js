@@ -1,4 +1,5 @@
 import "./App.css";
+import Navbar from "./components/navbar/Navbar";
 import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import Landing from "./pages/Landing/Landing";
@@ -15,6 +16,7 @@ function App() {
         width: "100vw",
       }}
     >
+      <Navbar/>
       <Landing />
       <About />
       <WhyUs />

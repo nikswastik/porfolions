@@ -1,7 +1,15 @@
-// ContactForm.js
-import React from "react";
+import React, { useState } from "react";
+
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    productName: '',
+    name: '',
+    phone: '',
+    email: '',
+    projectDetails: ''
+  });
+
   const styles = {
     contactContainer: {
       backgroundColor: "#1a1a1a",
@@ -89,36 +97,95 @@ const Contact = () => {
     footerLinkHover: {
       textDecoration: "underline",
     },
+    title:{
+        color:'#AAD44B',
+        fontFamily: "Ultra",
+    }
+  };
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const { productName, name, phone, email, projectDetails } = formData;
+
+    // Construct the mailto link
+    const mailtoLink = `mailto:omnira.query@gmail.com?subject=${encodeURIComponent(productName)}&body=${encodeURIComponent(
+      `Name: ${name}\nPhone: ${phone}\nEmail: ${email}\n\nProject Details:\n${projectDetails}`
+    )}`;
+
+    // Open the user's email client
+    window.location.href = mailtoLink;
   };
 
   return (
     <div style={styles.contactContainer}>
       <div style={styles.contactForm}>
         <h2 style={styles.header}>Contact us!</h2>
-        
-        <form style={styles.form}>
+
+        <form style={styles.form} onSubmit={handleSubmit}>
           <div style={styles.productDesign}>
-            <input type="text" placeholder="Product Design" style={styles.input} />
-            <input type="text" placeholder="" style={styles.input} />
-            <input type="text" placeholder="" style={styles.input} />
+            <input
+              type="text"
+              placeholder="Product Name"
+              name="productName"
+              value={formData.productName}
+              onChange={handleInputChange}
+              style={styles.input}
+            />
           </div>
-          
-          <input type="text" placeholder="Name" style={styles.input} />
-          <input type="text" placeholder="Phone" style={styles.input} />
-          <input type="email" placeholder="Email" style={styles.input} />
-          <textarea placeholder="Project details" style={styles.textarea}></textarea>
-          
+
+          <input
+            type="text"
+            placeholder="Name"
+            name="name"
+            value={formData.name}
+            onChange={handleInputChange}
+            style={styles.input}
+          />
+          <input
+            type="text"
+            placeholder="Phone"
+            name="phone"
+            value={formData.phone}
+            onChange={handleInputChange}
+            style={styles.input}
+          />
+          <input
+            type="email"
+            placeholder="Email"
+            name="email"
+            value={formData.email}
+            onChange={handleInputChange}
+            style={styles.input}
+          />
+          <textarea
+            placeholder="Project details"
+            name="projectDetails"
+            value={formData.projectDetails}
+            onChange={handleInputChange}
+            style={styles.textarea}
+          ></textarea>
+
           <button type="submit" style={styles.submitBtn}>
             <span>&#10148;</span> {/* Arrow symbol */}
           </button>
         </form>
       </div>
-      
+
+      {/* Footer */}
       <footer style={styles.footer}>
         <div style={styles.footerLogo}>
-          <h3>Concept Software</h3>
+          <h3>Omnira</h3>
           <p>
-            Concept Softworks is a software company, we develop custom built
+            Omnira is a software company, we develop custom built
             software for clients - covering everything from financial
             institutions & medical companies all the way to tech companies and
             government organizations.
@@ -126,20 +193,21 @@ const Contact = () => {
         </div>
         
         <div style={styles.footerLinks}>
-          <a href="#about" style={styles.footerLink}>About</a>
+          <h1 style={styles.title}>Omnira</h1>
+          {/* <a href="#about" style={styles.footerLink}>About</a>
           <a href="#projects" style={styles.footerLink}>Projects</a>
           <a href="#services" style={styles.footerLink}>Services</a>
           <a href="#clients" style={styles.footerLink}>Clients</a>
           <a href="#team" style={styles.footerLink}>Team</a>
           <a href="#blog" style={styles.footerLink}>Blog</a>
-          <a href="#contact" style={styles.footerLink}>Contact</a>
+          <a href="#contact" style={styles.footerLink}>Contact</a> */}
         </div>
         
-        <div style={styles.footerLinks}>
+        {/* <div style={styles.footerLinks}>
           <a href="#facebook" style={styles.footerLink}>Facebook</a>
           <a href="#instagram" style={styles.footerLink}>Instagram</a>
           <a href="#twitter" style={styles.footerLink}>Twitter</a>
-        </div>
+        </div> */}
       </footer>
     </div>
   );
