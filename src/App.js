@@ -1,6 +1,8 @@
 import "./App.css";
+import About from "./pages/about/About";
 import Community from "./pages/Community/Community";
 import Landing from "./pages/Landing/Landing";
+import WhyUs from "./pages/why/Why";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       }}
     >
       <Landing />
+      <About/>
+      <WhyUs/>
       {/* <Community /> */}
     </div>
   );

@@ -6,5 +6,7 @@ export const web_colors={
 }
 
 export const localAssets={
-    bg_landing:require("../assets/landing/bg_landing.png")
+    bg_landing:require("../assets/landing/bg_landing.png"),
+    bg_about:require('../assets/about/bg_icabout_us.png'),
+    bg_lined_card:require('../assets/about/bg_lined_yellow_circle.png')
 }
