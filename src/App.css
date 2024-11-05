@@ -1,7 +1,7 @@
 .App {
   margin: 0;
   padding: 0;
-  
+  flex:1;
   text-align: center;
   background-color: #161a1e;
   /* background-color: red; */

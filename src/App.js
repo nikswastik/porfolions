@@ -1,20 +1,24 @@
 import "./App.css";
-import Navbar from "./components/navbar/Navbar";
-import Landing from "./pages/Landing/Landing";
 import About from "./pages/about/About";
-import Experience from "./pages/experience/Experience";
-import Footer from "./components/footer/Footer";
+import Landing from "./pages/Landing/Landing";
+import Testimonials from "./pages/testimonials/Testimonials";
+import WhatWeDo from "./pages/whatwedo/WhatWeDo";
+import WhyUs from "./pages/why/Why";
 
 function App() {
   return (
-    <div className="App">
-       <div>
-                <Navbar />
-                <Landing />
-                <About />
-                <Experience />
-                <Footer />
-              </div>
+    <div
+      style={{
+        flex: 1,
+        height: "100vh",
+        width: "100vw",
+      }}
+    >
+      <Landing />
+      <About />
+      <WhyUs />
+      <WhatWeDo />
+      <Testimonials/>
     </div>
   );
 }
