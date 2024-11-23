@@ -6,11 +6,11 @@ export const styles = {
     color: web_colors.primaryText,
     display: "flex",
     justifyContent: "space-between",
-    padding: 10,  // Note: Change "Padding" to "padding" to follow the correct CSS property case.
+    padding: 10, // Note: Change "Padding" to "padding" to follow the correct CSS property case.
     height: "60vh",
   },
   landing_banner: {
-    height: 500,
+    height: 600,
     width: 500,
   },
   landing_l_ctr: {
@@ -29,6 +29,7 @@ export const styles = {
   slogan_text: {
     fontSize: 73,
     fontFamily: "ABeeZee",
+    padding: 10,
   },
   highlighted_text: {
     color: web_colors.secondaryText,

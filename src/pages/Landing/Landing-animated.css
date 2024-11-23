@@ -22,9 +22,9 @@
   }
 
   .landing-banner {
-    width: 50px;
-    height: 50px;
-    width: 100% !important;  /* Use 100% without quotes */
+    width: 280px !important;
+    height: 350px !important;
+
   }
 
   .landing_brake {
