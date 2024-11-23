@@ -1,34 +1,24 @@
-import React from 'react'
-import "./Socialmedia.css"
-export default function Socialmedia() {
+import React from "react";
+import "./Socialmedia.css"; // Import a CSS file for styling
 
-
-  const navigateToSocialMedia = (type) => {
-    if (type === "LinkedIn") {
-      // alert("linkedIn")
-      // window.location.replace("https://www.linkedin.com/in/swastik-naik-103239241/")
-      window.open('https://www.linkedin.com/in/swastik-naik-103239241/', '_blank');
-    }
-    else if (type === "Github") {
-      // alert("Github")
-      window.open('https://github.com/nikswastik', '_blank');
-    }
-    // else if(type==="Twitter"){
-
-    // }
-    else {
-      // alert("reload")
-      window.location.reload()
-    }
-
-  }
+const Socialmedia = () => {
   return (
-    <div className="landing-social-media">
-      <span className="social-media-links" onClick={() => { navigateToSocialMedia("Github") }}>Github</span>
-      <span className="social-media-links" onClick={() => { navigateToSocialMedia("LinkedIn") }}>LinkedIn</span>
-      {/* <span className="social-media-links">Instagram</span> */}
-      <span className="social-media-links" onClick={() => { navigateToSocialMedia("Twitter") }}>Twitter</span>
-      {/* <span className="social-media-links">My Portfolio</span> */}
+    <div className="trusted-companies">
+      <div className="icons">
+        <div>
+          <img
+            width="48"
+            height="48"
+            src="https://img.icons8.com/fluency/48/linkedin.png"
+            alt="linkedin"
+          />
+        </div>
+        <div>
+        <img width="48" height="48" src="https://img.icons8.com/color/48/github--v1.png" alt="github--v1"/>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
+
+export default Socialmedia;

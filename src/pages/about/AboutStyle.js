@@ -9,6 +9,9 @@ export const styles = {
   abt_l_ctr: {
     width: "50%",
     paddingLeft: 50,
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
   },
   abt_r_ctr: {
     width: "50%",
